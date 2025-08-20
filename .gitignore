@@ -360,3 +360,14 @@ FodyWeavers.xsd
 
 # Custom additions for your project
 packages-microsoft-prod.deb
+# CQLDB (NoSQL/MongoDB database files)
+CQLDB/WiredTiger*
+CQLDB/journal/
+CQLDB/mongod.lock
+CQLDB/diagnostic.data/
+CQLDB/*.wt
+CQLDB/*.ns
+CQLDB/*.0
+CQLDB/*.log
+CQLDB/*.bak
+CQLDB/*.tmp
